@@ -66,6 +66,11 @@ nav ul li a{
     padding: 15px 20px;
     
 }
+nav ul li a:hover{
+    box-sizing: 100px;
+    color: black;
+    font-size: 150%;
+}
 
 .fecha{
     top: 0;
@@ -74,6 +79,7 @@ nav ul li a{
     font-family: 'Capriola', sans-serif;
     font-size: 22px;
     text-align:center;
+    padding: 10px;
 }
 .blas{
     top: 0;
