@@ -4,59 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/cacique nuevo1.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/logocacique-min.png" type="image/x-icon">
     <title>elcacique</title>
+    <meta name="keywords" content="guerra ucrania, estados unidos, noticias del mundo, papa francisco, latinoamerica, trump, biden, putin, narcotrafico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css"> 
 </head>
 <body>
     <header class="portada">
-        <div class="cabeza">
-            <a href="../index.html"><img src="../images/cacique nuevo.jpg" alt="cacique"></a>
-            <h1 class="titulo">INTERNACIONALES</h1>
-        </div>   
-       
-        <nav class="nav">
-            <i class="fa-solid fa-bars"></i>
-            <ul class="text-uppercase">
-                <li><a href="../index.html">último momento</a></li>
-                <li><a href="../paginas/politica.html">politica</a></li>
-                <li><a href="./paginas/internacionales.html">internacionales</a></li>
-                <li><a href="../paginas/economia.html">economia</a></li>
-                <li><a href="../paginas/deportes.html">deportes</a></li>
-                <li><a href="#pie">ir a pie de pagina</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="container">
+                    <a id="tituloseccion" class="navbar-brand" href="#"><img src="../images/logocacique-min.png" alt="caciquelogo"width="50" height="50" id="logoseccion">INTERNACIONALES</a>
+                </div>
+                  
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5>EL CACIQUE</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">ULTIMO MOMENTO</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">SECCIONES</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="./politica.html">POLÍTICA</a></li>
+                                    <li><a class="dropdown-item" href="./internacionales.html">INTERNACIONALES</a></li>
+                                    <li><a class="dropdown-item" href="./economia.html">ECONOMÍA</a></li>
+                                    <li><a class="dropdown-item" href="./deportes.html">DEPORTES</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="d-flex flex-row">
-        <div class="d-flex flex-row w-70 justify-content-evenly">
-            <div class="p-3 align-content-left w-50">
-                <h3 class="text-uppercase">crece la tensión en ucrania</h3>
-                <img src="../images/ucrania.jpg" alt="ucrania">
-                <p>Lorem ipsum dolor sit amet consectetur adipis ficing elit. Totam incidunt fugit nisi quod magni saepe et iste ipsum iure? Iste, hic sequi sit nobis, cupiditate voluptates officia suscipit quasi delectus, nemo est. Recusandae placeat facilis quisquam rem veritatis in cum ad tempora labore porro reiciendis excepturi veniam, incidunt provident quos.</p>
+        <section>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="p-3" src="../images/ucrania-min.jpg" class="card-img-top" alt="ucrania">
+                        <div class="card-body">
+                            <h3 class="card-title text-uppercase p-3">crece la tensión en ucrania</h3>
+                            <p class="card-text p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iusto commodi atque, consectetur voluptas ut natus repellat eius possimus placeat pariatur molestiae necessitatibus dicta nulla exercitationem! Similique nihil quibusdam quos!.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="p-3" src="../images/uruguay-min.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-uppercase p-3">uruguay aprobó la suba de la esdad jubilatoria</h3>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias nam totam nulla aliquid eiusipsam esse! Exeius velit eiusarchitectovelitcupiditate velit vero tempore blanditiis! Sed maxime quia quaerat molestias aspernatur, culpa animi? Ducimus unde quia, sint at rerum, assumenda, aut quo et optio ut cum eius aliquam illo exercitationem posvv.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="p-3" src="../images/papaf (1)-min.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-uppercase p-3">el papa francisco visita hungría</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias culpa, voluptates laudantium velit beatae illo ducimus quasi odio? Delectus laboriosam, perferendis optio aperiam labore at. Assumenda animi aperiam expedita commodi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="p-3" src="../images/usa-min.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-uppercase p-3">la cumbre que nadie quiere: biden vs trump</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, rerum praesentium natus excepturi ullam vero itaque iste vitae mollitia eveniet odio fugiat distinctio voluptatibus  iusto quaerat nostrumiusto quaerat nostrum voluptatibus.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="p-3 w-50">
-                <h3 class="text-uppercase">uruguay aprobó la suba de la esdad jubilatoria</h3>
-                <img src="../images/uruguay.jpg" alt="uruguay">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias nam totam nulla aliquid eius ipsam esse! Ex architecto cupiditate placeat officia vero tempore blanditiis! Sed maxime quia quaerat molestias aspernatur, culpa animi? Ducimus unde quia, sint at rerum, assumenda, aut quo et optio ut cum eius aliquam illo exercitationem possimus?</p>
+        </section>
+        <section class="publicidad">
+            <div>
+                <img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/14163468875813928247">
             </div>
-            <div class="p-3 align-content-left w-50">
-                <h3 class="text-uppercase">el papa francisco visita hungría</h3>
-                <img src="../images/papaf (1).jpg" alt="papaf">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ad laborum soluta obcaecati officia veniam natus vel libero est laboriosam totam earum, sint corporis? Architecto asperiores sint officiis temporibus quibusdam vero exercitationem iste. Accusantium earum quam impedit assumenda distinctio aliquid, modi officia fugit ab blanditiis reprehenderit sunt, recusandae at unde?</p>
-            </div>
-            <div class="p-3 w-50">
-                <h3 class="text-uppercase">la cumbre que nadie quiere: biden vs trump</h3>
-                <img src="../images/usa.jpg" alt="usa">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto tempore pariatur nobis itaque accusamus dolorum amet, unde sequi distinctio aut consequatur eaque dolor a possimus atque explicabo iusto delectus! Enim adipisci tenetur dolor cupiditate eveniet aliquid animi perspiciatis ab, ducimus doloribus accusantium velit architecto expedita recusandae commodi consectetur esse labore.</p>
-            </div>
-        </div>
-        <div class="w-30">
-            <img class="w-100" alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/14163468875813928247">
-        </div>
+        </section>
 
     </main>
-    <footer id="#pie">
+    <footer id="pie">
         <div class="redes">
             <div>
                 <a href="https://es-la.facebook.com/" target="_blank"> <img src="../images/REDES SOCIALES/facebook.png" alt="logofacebook"></a>
