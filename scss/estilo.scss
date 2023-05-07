@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Capriola', sans-serif ;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:left -150px;
+         img{
+            margin: 3px;
+            padding: 5px;
+            a{
+            padding: 5px;
+            }
+        }
+
+}
+
+
+
+   }
+.fecha {
+    display: block; 
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 22px;
+    text-align:center;
+    padding: 10px;
+}
+.blas{
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 32px;
+    text-align:center;
+    padding: 5px;
+    margin: 20px;
+}
+.imagenblas{
+    align-items: center;
+    text-align:center;
+    margin: 10px;
+    img{
+        margin: 10px;
+        padding: 5px;
+        p{
+            text-align: justify;
+            padding: 10px;
+
+            
+        }
+    }
+
+}
+
+ 
+
+.nota1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nota1txt{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.imagendolar{
+    align-items: center;
+    text-align:center;
+    margin: 10px;
+    p{
+        margin: 10px;
+        padding: 25px;
+        text-align: justify
+    }
+}
+
+.belgrano{
+    margin: 10px;
+    padding: 5px;
+    overflow: clip;
+    vertical-align: middle;
+    object-fit:cover;
+    width: 500px;
+}
+.imagenbelgrano{
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+.imagenbelgrano p{
+    margin: 10px;
+    padding: 25px;
+    text-align: justify;
+
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: (1fr);
+    grid-gap: 10px;
+    max-width: 200px;
+    margin:0%;
+    h2{
+        grid-column: 1/ span 2;
+        text-align: center;
+        background-color: #808080;
+        color: aliceblue;
+        border: 5px;
+        margin: 10px;
+        padding: 5px;
+        button{
+            grid-column: 2/ span 1;
+            padding: 5px;
+            border: 2px solid;
+            margin: 5px;
+            &:hover{
+                background-color: grey;
+                color:white
+            }
+            
+        }
+    }
+}
+
+.formulario label:nth-child(2){
+    grid-area: nombre y apellido;
+    grid-column: 1/ span 2;
+    }
+.formulario label:nth-child(3){
+    grid-area: mensaje;
+}       
+
+    
+aside{
+    flex-direction:row;
+    margin: 10px;
+    }
+.redes{
+    display: flex;
+    flex-direction:row;
+    justify-content:right;
+    flex-wrap:initial;
+    margin: 5px;
+    padding: 5px;
+}
+footer{
+    font-family:'Capriola', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+}
+
+.derechos{
+    color: white;
+}
+@media (min-width:300px) and (max-width:800px){
+    #tituloseccion{
+        display: none;
+    }
+    #logoseccion{
+        display: none;
+    } 
+    .fecha{
+        top: 0;
+        width: 100%;
+        height: 50px;
+        font-family: 'Capriola', sans-serif;
+        font-size: 16px;
+        text-align:center;
+    }
+    .pais{
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+    }
+    .blas{
+        top: 0;
+        width: 98%;
+        height: 75px;
+        font-family: 'Capriola', sans-serif;
+        font-size: 16px;
+        text-align:center;
+    }
+    .imagenblas{
+        align-items: center;
+        text-align:center;
+        margin: 10px;
+        img{
+            margin: 10px;
+            padding: 5px;
+            width: 100%;
+            object-fit:contain;
+            p{
+                text-align: justify;
+                padding: 10px;
+                font-size: 12px;
+
+            }
+        }
+    }
+    
+    
+    .nota1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .nota1txt{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    
+    }
+    .imagendolar{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin: 10px;
+            padding: 5px;
+            width: 100%;
+            object-fit:contain;
+            p{
+                display: none;
+        
+
+    }
+    h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .belgrano{
+        margin: 10px;
+        padding: 5px;
+        overflow: clip;
+        vertical-align: middle;
+        object-fit:cover;
+        width: 98%;
+    }
+    .imagenbelgrano{
+        align-items: center;
+        margin: 10px;
+        padding: 5px;
+    }
+    .imagenbelgrano p{
+        display: none;
+    
+    }
+    
+    .formulario{
+        display: grid;
+        grid-template-columns: (1fr);
+        grid-gap: 10px;
+        max-width: 200px;
+        margin:0%;
+    }
+    .formulario h2{
+        grid-column: 1/ span 2;
+        text-align: center;
+        background-color: grey;
+        color: aliceblue;
+        border: 5px;
+        margin: 10px;
+        padding: 5px;
+    }
+    .formulario label:nth-child(2){
+        grid-area: nombre y apellido;
+        grid-column: 1/ span 2;
+        }
+    .formulario label:nth-child(3){
+        grid-area: mensaje;
+    }       
+    .formulario button{
+        grid-column: 2/ span 1;
+        padding: 5px;
+        border: 2px solid;
+        margin: 5px;
+        
+    }
+    .formulario button:hover{
+        background-color: grey;
+        color:white
+    }
+    aside{
+        display: none;
+        }
+    .redes{
+        display: flex;
+        flex-direction:row;
+        justify-content:right;
+        flex-wrap:initial;
+        margin: 5px;
+        padding: 5px;
+    }
+    footer{
+        font-family:'Capriola', sans-serif;
+        display: flex;
+        flex-direction: column;
+        background-color: grey;
+        width: 100%;
+        height: 80px;
+        padding: 5px;
+    }
+    
+    .derechos{
+        color: white;
+    }
+   
+}
+
+/*FIN DE PORTADA*/
+
+/*POLITICA*/
+.m-poli{
+    display:flex;
+    flex-direction: row;
+}
+.articulos{
+    display: flex;
+    flex-direction: column;
+}
+.milei{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    width:80%;
+    align-items: center;
+}
+.milei h3{
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.milei img{
+    width: 98%;
+    margin: 10px;
+    padding: 5px;
+}
+.milei p{
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
+}
+.cerruti{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    width:80%;
+    align-items: center;
+}
+.cerruti h3{
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.cerruti iframe{
+    width: 98%;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+}
+.cerruti p{
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
+}
+.publicidad{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    height: 50%;
+}
+.publi2{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    height: 40%;
+}
+/*INTERNACIONALES*/
+p{
+    text-align: justify;
+}
+@media (min-width:300px) and (max-width:800px){
+    
+.publicidad{
+    display: none;
+    
+}
+}
+
+/* FIN INTERNACIONALES*/
+
+/*ECONOMÍA*/
+#usd{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*DEPORTES*/
+
+#boca{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+#river{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#messi{
+    object-fit: fill;
+    
+    width: 100%;
+}
+#checo{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*DEPORTES*/
